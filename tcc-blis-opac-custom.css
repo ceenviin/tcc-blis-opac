@@ -1,0 +1,112 @@
+/* TCC BLIS Modern Library OPAC — Awesome Table custom CSS
+   Theme: Pink, Purple, White
+   Paste this file into a public GitHub repository and use its jsDelivr URL.
+*/
+
+/* Page foundation */
+body, .google-visualization-table, .awesomeTable {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif !important;
+  color: #30243a !important;
+  background: #fbf8fd !important;
+}
+
+/* Search and filter controls */
+input[type="text"], input[type="search"], select,
+.goog-combo, .goog-textbox {
+  border: 1px solid #e4d7ed !important;
+  border-radius: 10px !important;
+  background: #ffffff !important;
+  color: #39234b !important;
+  padding: 10px 12px !important;
+  min-height: 38px !important;
+  box-shadow: none !important;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #c9a6dc !important;
+  border-color: #9864b2 !important;
+}
+
+/* Filter labels */
+label, .filter-label, .google-visualization-controls-label {
+  color: #5b426b !important;
+  font-weight: 600 !important;
+}
+
+/* Buttons */
+button, input[type="button"], input[type="submit"] {
+  background: #70458b !important;
+  color: #ffffff !important;
+  border: 0 !important;
+  border-radius: 9px !important;
+  padding: 9px 15px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+}
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+  background: #56336f !important;
+}
+
+/* Table view fallback */
+.google-visualization-table-table {
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  background: #ffffff !important;
+  border: 1px solid #eadff2 !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+}
+.google-visualization-table-th {
+  background: #56336f !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  padding: 12px 10px !important;
+}
+.google-visualization-table-td {
+  padding: 11px 10px !important;
+  border-color: #f0e8f4 !important;
+}
+.google-visualization-table-tr-even {
+  background: #fbf7fd !important;
+}
+.google-visualization-table-tr-odd {
+  background: #ffffff !important;
+}
+
+/* Card view — applies where Awesome Table exposes these card containers */
+.card, .awesome-table-card, .at-card, [class*="card"] {
+  border: 1px solid #eadff2 !important;
+  border-radius: 16px !important;
+  background: #ffffff !important;
+  color: #30243a !important;
+  box-shadow: 0 4px 16px rgba(75, 42, 96, 0.08) !important;
+  overflow: hidden !important;
+}
+.card:hover, .awesome-table-card:hover, .at-card:hover {
+  box-shadow: 0 8px 22px rgba(75, 42, 96, 0.14) !important;
+}
+
+/* Status chips when status is rendered as a badge */
+.status, .availability, [class*="status"] {
+  border-radius: 999px !important;
+  font-weight: 700 !important;
+}
+
+/* Pagination */
+.google-visualization-table-page-numbers,
+.google-visualization-table-page-number {
+  color: #70458b !important;
+  font-weight: 600 !important;
+}
+
+/* Responsive spacing */
+@media (max-width: 700px) {
+  input[type="text"], input[type="search"], select {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+  .card, .awesome-table-card, .at-card {
+    width: 100% !important;
+    margin-bottom: 12px !important;
+  }
+}
